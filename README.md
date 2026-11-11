@@ -4,7 +4,7 @@
 > 基于 [Karpathy LLM Wiki 模式](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) 构建，将碎片化的直播/文章/笔记编译为高度互联的 Obsidian 知识图谱。
 
 <p align="center">
-  <img src="https://img.shields.io/badge/concepts-88-blue" alt="88 concepts" />
+  <img src="https://img.shields.io/badge/concepts-90-blue" alt="90 concepts" />
   <img src="https://img.shields.io/badge/sources-8-green" alt="8 sources" />
   <img src="https://img.shields.io/badge/entities-6-orange" alt="6 entities" />
   <img src="https://img.shields.io/badge/raw--articles-470-lightgrey" alt="470 raw articles" />
@@ -35,7 +35,7 @@ git clone https://gitee.com/chenleizzzz/zettaranc-knowledge.git
 
 ```
 原始素材（raw/）          →    结构化知识（wiki/）
-470 篇公众号/直播/笔记         88 个概念 + 6 实体 + 8 来源摘要
+470 篇公众号/直播/笔记         90 个概念 + 6 实体 + 8 来源摘要
 分散、口语化、重复              互相链接、有冲突标注、有 Mermaid 流程图
 ```
 
@@ -45,7 +45,7 @@ git clone https://gitee.com/chenleizzzz/zettaranc-knowledge.git
 
 | 类别 | 数量 | 说明 |
 |------|------|------|
-| **概念页** | 88 个 | 按 8 层目录组织（体系总览/底层工具/买卖信号/战法策略/资金仓位/市场筹码/心法哲学/操作手册） |
+| **概念页** | 90 个 | 按 8 层目录组织（体系总览/底层工具/买卖信号/战法策略/资金仓位/市场筹码/心法哲学/操作手册） |
 | **实体页** | 6 个 | 作者（Zettaranc/渣A小学生/大富翁小菜鸟号）+ 资金画像（国家队/麒麟会/百岁山） |
 | **来源摘要** | 8 个 | 从 470 篇原始文章中提炼的批次摘要 |
 | **操作手册** | 2 篇 | 短线/长线交易操作手册（跨概念综合研究） |
@@ -111,7 +111,7 @@ zettaranc-knowledge/
 │   ├── index.md                   # 总目录 + Mermaid 结构图
 │   ├── log.md                     # 操作日志（append-only）
 │   └── zettaranc/                 # Zettaranc 命名空间
-│       ├── concepts/              # 88 个概念（8 层目录）
+│       ├── concepts/              # 90 个概念（8 层目录）
 │       │   ├── 01-体系总览/       # 交易模块、框架、闭环
 │       │   ├── 02-底层工具/       # 白线黄线、砖形图、MACD
 │       │   ├── 03-买卖信号/       # B1/B2/B3、S1、DSZ
